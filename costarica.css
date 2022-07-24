@@ -1,0 +1,46 @@
+.container{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-style: solid;
+    border: 0.7px;
+    justify-content: center;
+
+    
+}
+.container div{
+    height: 50px;
+}
+.blues{
+    
+    background-color: blue;
+
+}
+.whites{
+   
+    background-color: white;
+
+}
+.reds{
+    background-color: red;
+}
+
+.symbol{
+    width: 55px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+}
+.container img{
+    position: absolute;
+    top: 80%;
+    left:20%;
+
+}
+
+body{
+    background-color: grey;
+    align-items: center;
+}
